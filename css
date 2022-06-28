@@ -1,0 +1,249 @@
+/* heading styles, whole page alignment */
+
+
+body {
+  text-align: center;
+  height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(
+  180deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+}
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 100px;
+  margin-top: 35px;
+}
+
+h2 {
+  font-family: "Georgia", sans-serif;
+  width: 85vh;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Tahoma", sans-serif;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* navbar list styles */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 120px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: "Avenir", sans-serif;
+}
+
+a:hover {
+  font-weight: bold;
+  color: inherit;
+}
+
+/* webpage background colors */
+
+.R {
+  background-color: rgb(252, 127, 127);
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #FF6B4B;
+  
+}
+
+.O {
+  background-color: orange;
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #FFB74B;
+  
+}
+
+.Y {
+  background-color: rgb(255, 255, 147);
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #FFFC4B;
+  
+}
+
+.G {
+  background-color: rgb(121, 211, 143);
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #91FF4B;
+  
+}
+
+.B {
+  background-color: skyblue;
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #4BFFE3;
+  
+}
+
+.P {
+  background-color: plum;
+  height: 150vh;
+  width: 100%;
+  border: 10px;
+  border-style: inset;
+  border-color: #DB4BFF;
+  
+}
+
+/* navbar text colors */
+.red {
+  color: rgb(223, 0, 0);
+  transition: 0.3s;
+}
+
+.orange {
+  color: rgb(255, 123, 0);
+  transition: 0.3s;
+}
+
+.yellow {
+  color: rgb(255, 217, 0);
+  transition: 0.3s;
+}
+
+.green {
+  color: rgb(0, 134, 0);
+  transition: 0.3s;
+}
+
+.blue {
+  color: rgb(0, 110, 253);
+  transition: 0.3s;
+}
+
+.purple {
+  color: rgb(92, 0, 134);
+  transition: 0.3s;
+}
+
+.black {
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+
+/* navbar hover backgrounds */
+
+.red:hover {
+  background-color: rgb(252, 127, 127);
+}
+
+.orange:hover {
+  background-color: orange;
+}
+
+.yellow:hover {
+  background-color: rgb(255, 240, 154);
+}
+
+.green:hover {
+  background-color: rgb(94, 255, 94);
+}
+
+.blue:hover {
+  background-color: skyblue;
+}
+
+.purple:hover {
+  background-color: plum;
+}
+
+.black:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+
+
+/* image margin on home and purple pages */
+
+img {
+  
+  margin-top: 50px;
+  height: 25%;
+  width: 25%;
+  border: 5px;
+  border-color: black;
+  border-radius: 25%;
+  
+}
+nav {
+  position: absolute;
+}
+
+header {
+  padding-bottom: 1000px;
+}
+.ball {
+  position: relative;
+  animation: mymove 10s infinite;
+  animation-delay: 10ms;
+  height: 100px;
+  width: 100px;
+}
+
+@keyframes mymove {
+  from {
+    left: -950px;
+  }
+  to {
+    left: 950px;
+  }
+}
+#cows {
+  height: 100px;
+  border: 10px;
+  border-style: inset;
+  border-color: white;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    2700deg,
+    white,
+    grey,
+    white
+  );
+}
